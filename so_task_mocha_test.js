@@ -206,9 +206,7 @@ describe('library app scenerio', function() {
         } 
     });
 
-    it("TEST CASE 7: Check if the frames are highlighted in blue when they are fullfield;\
-    Check if it was unsuccessfull registration after left all fields empty;\
-    Check if 'Sign up for our newsletter!'', 'Receive special offers from our partners!'works are clickable;\
+    it("TEST CASE 7: Check if 'Sign up for our newsletter!'', 'Receive special offers from our partners!'works are clickable;\
     Check if registration message is visible after click on register button;\
     Check if there are proper validation message after left empty all fields", function() {
         try {
@@ -254,6 +252,8 @@ describe('library app scenerio', function() {
     });
 
     it("TEST CASE 8: CHeck if combobox is expended down when cursos is on it;\
+    Check if the frames are highlighted in blue when they are fullfield;\
+    Check if it was unsuccessfull registration after left all fields empty;\
     Check if password is encrypted;\
     Check if data prosesses to server after fullfilling all fields and signup is successull", function() {
         try {
